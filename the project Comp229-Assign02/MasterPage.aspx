@@ -25,7 +25,7 @@
                     <span class ="sr-only"></span>
                     <span class ="icon-bar"></span>
                 </button>            
-                <a class ="navbar-brand" href="MasterPage.aspx">Home</a>
+                <a class ="navbar-brand" href="#">Home</a>
             </div>
         </div>
     </nav>

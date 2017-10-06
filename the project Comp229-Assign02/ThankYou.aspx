@@ -10,7 +10,7 @@
 <body>
     <form id="form1" runat="server">
     <div class="jumbotron text-xs-center">
-  <h1 class="display-3">Thank You!</h1>
+  <h1 class="display-3">Thank You!!!</h1>
   <p class="lead"><strong>Please check your email !</strong> you will get a gitf ticket !</p>
   <hr>
   <p>

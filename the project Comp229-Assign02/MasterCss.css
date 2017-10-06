@@ -53,3 +53,37 @@ section.cta {
     display: inline-block;
     font-size: 16px;
 } 
+section.contact {
+  text-align: center; }
+  section.contact h2 {
+    margin-top: 0;
+    margin-bottom: 25px; }
+    section.contact h2 i {
+      color: #dd4b39; }
+  section.contact ul.list-social {
+    margin-bottom: 0; }
+    section.contact ul.list-social li a {
+      font-size: 40px;
+      line-height: 80px;
+      display: block;
+      width: 80px;
+      height: 80px;
+      color: white;
+      border-radius: 100%; }
+   
+    section.contact ul.list-social li.social-twitter a {
+        background-image: url('image/Amazon.png');
+        background-position: center;
+        background-size: cover;
+      background-color: #1da1f2; }
+     section.contact ul.list-social li.social-google-plus a{
+        background-image: url('image/Google.jpg');
+        background-position: center;
+        background-size: cover;
+      background-color: #dd4b39; }
+      section.contact
+      { 
+      background-color: #dd4b39; }
+      section.contact ul.list-social li.social-google-plus a:hover {
+        background-color: #d73925; }
+

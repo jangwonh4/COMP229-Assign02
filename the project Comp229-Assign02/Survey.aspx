@@ -4,18 +4,19 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
+    <link rel="stylesheet" href="SurveyCSS.css" />
+    <title>Survey</title>
 </head>
 <body>
     <form id="form1" runat="server">
 
-   <table style="width: 66%;">
+   <table style="width: 66%;" align="center">
    
       <tr>
          <td class="style1" colspan="3" align="center">
          <asp:Label ID="lblmsg" 
-            Text="President Election Form : Choose your president" 
-            runat="server" />
+            Text="Evaluation Form" 
+            runat="server" style="font-weight: 700; font-size: x-large" />
          </td>
       </tr>
 
@@ -26,7 +27,7 @@
 
          <td class="style2">
             <asp:DropDownList ID="ddlcandidate" runat="server"  style="width:239px">
-               <asp:ListItem>Please Choose a Candidate</asp:ListItem>
+               <asp:ListItem>Please Choose occupation</asp:ListItem>
                <asp:ListItem>Student</asp:ListItem>
                <asp:ListItem>Worker</asp:ListItem>
                <asp:ListItem>Unemployee</asp:ListItem>
@@ -38,7 +39,7 @@
             <asp:RequiredFieldValidator ID="rfvcandidate" 
                runat="server" ControlToValidate ="ddlcandidate"
                ErrorMessage="Please choose occupation" 
-               InitialValue="Please choose a candidate" ForeColor="Red"></asp:RequiredFieldValidator>
+               InitialValue="Please choose occupation" ForeColor="Red"></asp:RequiredFieldValidator>
          </td>
       </tr>
 
@@ -103,7 +104,7 @@
       </tr>
    </table>
    <asp:ValidationSummary ID="ValidationSummary1" runat="server" 
-      DisplayMode ="BulletList" ShowSummary ="true" HeaderText="Errors:" />
+      DisplayMode ="BulletList" ShowSummary ="true" HeaderText="Errors:" ForeColor="Red" />
 </form>
 </body>
 </html>

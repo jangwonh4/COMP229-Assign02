@@ -132,6 +132,7 @@
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
     <Content Include="Survey.aspx" />
+    <Content Include="SurveyCSS.css" />
     <Content Include="ThankYou.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
